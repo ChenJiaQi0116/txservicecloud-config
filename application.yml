@@ -6,9 +6,9 @@ spring:
 spring:
   profiles: dev
   application:    #开发环境
-    name: txservicecloud-config-tx-dev
+    name: txservicecloud-config-zjx-dev
 ---
 spring:
   profiles: test   #测试环境
   application:
-    name: txservicecloud-config-tx-test
+    name: txservicecloud-config-zjx-test
