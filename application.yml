@@ -6,9 +6,9 @@ spring:
 spring:
   profiles: dev
   application:    #开发环境
-    name: center-config-tx-dev
+    name: center-config-dev
 ---
 spring:
   profiles: test   #测试环境
   application:
-    name: center-config-tx-test
+    name: center-config-test
